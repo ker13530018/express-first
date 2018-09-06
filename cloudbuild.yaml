@@ -7,7 +7,7 @@ steps:
   args:
   - set
   - image
-  - deployment/kubernetes
+  - deployment/node-express
   - node-express=gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-a'
