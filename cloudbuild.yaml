@@ -8,7 +8,7 @@ steps:
   - set
   - image
   - deployment/pongsak-express
-  - pongsak-express=gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME
+  - github-ker13530018-express-first=gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-k8s'
