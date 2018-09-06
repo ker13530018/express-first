@@ -7,8 +7,8 @@ steps:
   args:
   - set
   - image
-  - deployments/node-express
-  - node-express=gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME
+  - deployment/pongsak-express
+  - pongsak-express=gcr.io/$PROJECT_ID/$REPO_NAME:$TAG_NAME
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-k8s'
